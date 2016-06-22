@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+.row{
+  max-width: 650px;
+  display: block;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 500%;
+  margin-bottom: 0px;
+}
+
+h2, p, button{
+  font-family: 'Raleway', sans-serif;
+}
+nav {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+nav li:hover {
+  color: grey;
+}
+
+.wrapper{
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
+
+#board{
+  width: 608px;
+  height: 608px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.island{
+  background-image: url("http://www.thisislandlife.com/wp-content/uploads/2015/04/this_island_life_buzzfeed_thumbnail-600x600.jpg");
+}
+.night{
+  background-image: url("http://i.imgur.com/pIoTuMg.png");
+}
+
+.waterfall{
+
+  background-image: url("http://www.goodmorningmountain.com/wp-content/uploads/2014/12/New-Zealand-good-morning-mountain-6-600x600.jpg");
+}
+.square{
+  height: 200px;
+  width:200px;
+  border-color: black;
+  background-color: black;
+  display:inline-block;
+}
+
+.p1{
+  background-color: blue;
+  opacity: .3;
+}
+
+.p2{
+  background-color: gold;
+  opacity: .3;
+}
+
+
+.flash {
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 3;
+
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 3;
+
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 3;
+}
+
+@-webkit-keyframes flash {
+    0% { background-color: #000; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: #000; }
+}
+
+@-moz-keyframes flash {
+    0% { background-color: #000; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: #000; }
+}
+
+@-ms-keyframes flash {
+    0% { background-color: #000; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: #000; }
+}
